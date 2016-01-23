@@ -26,7 +26,7 @@ params = {
     {property: 'FullName', direction: 'ASC'},
   ].to_json,
   filter: [
-    {property: 'Source', value: 'Custom Songs|is'},
+    {property: 'Source', value: 'Custom|is'},
   ].to_json,
 }
 uri.query = URI.encode_www_form(params)
